@@ -12,23 +12,23 @@ npm run start
 
 当在本地目录中访问不到时，会通过代理获取服务端地址对应资源
 
-或创建一个app目录，复制前端静态文件
+创建一个app目录，复制前端静态文件至此目录, 或使用绝对路径,指定静态资源（前端工程）位置
 ```
 const staticPath = './app'
+
 ````
-或使用绝对路径
-```
-//let staticAbsPath="E:/application/webapp";
-```
 
 指定服务端访问地址
 ```
 const targetServerUrl='http://api.icndb.com'
 ```
+配置访问端口号 默认80端口
+```
+const port=80;
+```
 
-
-## 网站前台：<br>
-http://localhost/index.html
+## 通过浏览器打开访问本地web应用：<br>
+http://localhost
 
 
 
